@@ -9,9 +9,7 @@ def bubble_sort(arr)
       end
     end
     len -= 1
-    if !swapped 
-    break #stops the loop if array is already sorted
-    end
+    break unless swapped # stops the loop if array is already sorted
   end
   arr
 end
